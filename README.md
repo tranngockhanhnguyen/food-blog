@@ -5,6 +5,6 @@
 #### **🍩 Technologies**
   
   - HTML
-  - CSS
+  - CSS (Resposive)
   - JavaScript
   - Library : AOS
