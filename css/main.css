@@ -1,0 +1,50 @@
+:root {
+    --main-color: #ef4f53;
+    --black: #474747;
+    --white: white;
+    --gray: #838383;
+    --background-color: #eff3f7;
+    --box-shadow: -1px -5px 20px 0px rgb(0 0 0 / 30%);
+    --box-shadow-hero: 0px 90px 100px rgb(0 0 0 / 40%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 62.5%;
+
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+
+    overflow-x: hidden;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+
+    color: var(--black);
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}

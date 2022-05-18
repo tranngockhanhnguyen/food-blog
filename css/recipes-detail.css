@@ -1,0 +1,200 @@
+/* SECTION HERO */
+.hero {
+    height: 767px;
+
+    background-image: url(../images/recipes-detail-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* **************************************************************** */
+/* SECTION RECIPES_DETAIL */
+.recipes-detail {
+    padding: 10rem 0;
+}
+
+/* HEADER */
+.recipes-detail__header {
+    margin-bottom: 5rem;
+}
+
+.recipes-detail__heading {
+    position: relative;
+
+    font-size: 3.6rem;
+    font-weight: 600;
+
+    color: var(--black);
+}
+
+.recipes-detail__heading:before {
+    position: absolute;
+    content: "For Begginers";
+    top: -5rem;
+    left: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 50px;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    color: var(--white);
+    background-color: var(--main-color);
+}
+
+.recipes-detail__heading:after {
+    position: absolute;
+    content: "";
+    top: -5rem;
+    left: 15rem;
+    width: 0;
+
+    border-width: 2.5rem 1.5rem;
+    border-style: solid;
+    border-color: var(--main-color) transparent transparent var(--main-color);
+}
+
+.recipes-detail__date {
+    font-size: 1.4rem;
+
+    color: var(--gray);
+}
+
+.recipes-detail__rating {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.recipes-detail__rating > li {
+    padding-right: 0.2rem;
+
+    color: #fbb710;
+}
+
+.recipes-detail__rating > li:last-child {
+    color: #e0e3e4;
+}
+
+/* BOX */
+.recipes-detail__box {
+    position: relative;
+    padding: 5rem;
+    margin-bottom: 5rem;
+
+    background-color: var(--background-color);
+}
+
+.recipes-detail__summary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem 12rem 2rem 5rem;
+
+    font-size: 1.5rem;
+    line-height: 2;
+
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+.recipes-detail__summary:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 29.6rem;
+
+    border-width: 6.5rem 3.5rem;
+    border-style: solid;
+    border-color: var(--main-color) transparent transparent var(--main-color);
+}
+
+.recipes-detail__title {
+    margin-top: 14rem;
+
+    font-size: 3.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+    color: var(--black);
+}
+
+.recipes-detail__check-box-item {
+    position: relative;
+    margin-top: 3.5rem;
+}
+
+.recipes-detail__check-box-item input {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+
+    accent-color: var(--main-color);
+}
+
+.recipes-detail__check-box-item label {
+    display: inline-block;
+    padding-left: 5rem;
+
+    color: var(--black);
+
+    cursor: pointer;
+}
+
+/* CONTENT */
+.recipes-detail__item {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 4rem;
+}
+
+.recipes-detail__number {
+    font-size: 3.6rem;
+    font-weight: 600;
+
+    color: var(--black);
+}
+
+.recipes-detail__description {
+    padding-top: 2rem;
+    padding-left: 1rem;
+
+    font-size: 1.4rem;
+    line-height: 2;
+
+    color: var(--gray);
+}
+
+/* ***************************************************************** */
+/* REPONSIVE */
+/*  TABLET*/
+@media (max-width: 1023px) {
+    .recipes-detail {
+        padding-bottom: 6rem;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+    .recipes-detail__box {
+        padding: 3rem;
+    }
+
+    .recipes-detail {
+        padding: 10rem 1.5rem 6rem 1.5rem;
+    }
+
+    .recipes-detail__item {
+        margin-bottom: 3rem;
+    }
+
+    .recipes-detail__description {
+        font-size: 1.6rem;
+    }
+}
