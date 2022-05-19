@@ -77,6 +77,7 @@
 
 .recipes-list__info {
     position: absolute;
+    width: 80%;
     bottom: 0;
     left: 0;
     z-index: 10;
@@ -89,9 +90,9 @@
     position: absolute;
     content: "";
     top: 0;
-    right: -30px;
+    right: -28px;
 
-    border-width: 3rem 1.5rem;
+    border-width: 3.2rem 1.4rem;
     border-style: solid;
     border-color: var(--main-color) transparent transparent var(--main-color);
 }
